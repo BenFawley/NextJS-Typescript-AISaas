@@ -1,6 +1,15 @@
 "use client";
 
-import { Check, Zap } from "lucide-react";
+import { 
+  Check, 
+  Zap,
+  Code,
+  ImageIcon,
+  MessageSquare,
+  Music,
+  Settings,
+  VideoIcon,
+} from "lucide-react";
 import axios from "axios";
 import { useState } from "react";
 
