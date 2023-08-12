@@ -15,7 +15,7 @@ import {
 import { Card } from "@/components/ui/card";
 import { cn } from "@/lib/utils";
 
-export const tools = [
+const tools = [
   {
     label: "Conversation",
     icon: MessageSquare,
