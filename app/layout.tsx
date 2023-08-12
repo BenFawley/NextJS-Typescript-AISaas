@@ -8,7 +8,7 @@ import { ToasterProvider } from "@/components/toaster-provider";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Genius",
+  title: "Albie",
   description: "AI Platform",
 };
 
