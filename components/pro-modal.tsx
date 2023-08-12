@@ -17,9 +17,51 @@ import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
 import { Card } from "@/components/ui/card";
 
-import { tools } from "@/app/(dashboard)/(routes)/dashboard/page";
 import { cn } from "@/lib/utils";
 import { toast } from "react-hot-toast";
+
+const tools = [
+  {
+    label: "Conversation",
+    icon: MessageSquare,
+    href: "/conversation",
+    color: "text-violet-500",
+    bgColor: "bg-violet-500/10",
+  },
+  {
+    label: "Image Generation",
+    icon: ImageIcon,
+    href: "/image",
+    color: "text-pink-700",
+    bgColor: "bg-pink-700/10",
+  },
+  {
+    label: "Video Generation",
+    icon: VideoIcon,
+    href: "/video",
+    color: "text-orange-700",
+    bgColor: "bg-orange-700/10",
+  },
+  {
+    label: "Music Generation",
+    icon: Music,
+    href: "/music",
+    color: "text-emerald-500",
+    bgColor: "bg-emerald-500/10",
+  },
+  {
+    label: "Code Generation",
+    icon: Code,
+    href: "/code",
+    color: "text-green-700",
+    bgColor: "bg-green-700/10",
+  },
+  {
+    label: "Settings",
+    icon: Settings,
+    href: "/settings",
+  },
+];
 
 const ProModal = () => {
   const proModal = useProModal();
