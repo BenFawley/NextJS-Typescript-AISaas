@@ -15,17 +15,17 @@ const Testimonials = [
     title: "Business Owner",
     description: "This application helped take my business to the next level!",
   },
-  {
-    name: "Ben",
-    avatar: "B",
-    title: "Software Engineer",
-    description: "This is the best application i have ever used!",
+ {
+    name: "John",
+    avatar: "J",
+    title: "Web Developer",
+    description: "Genius is amazing, it helped me finally center a <div>!",
   },
   {
-    name: "Ben",
-    avatar: "B",
-    title: "Software Engineer",
-    description: "This is the best application i have ever used!",
+    name: "Dave",
+    avatar: "D",
+    title: "Administrator",
+    description: "Genius has saved me hours working out excel formulas.",
   },
 ];
 
